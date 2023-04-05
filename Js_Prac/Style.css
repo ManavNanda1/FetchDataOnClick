@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+body{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+::placeholder{
+    text-align: center;
+}
+.heading{
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.heading:hover{
+    color: red;
+    border: 3px solid white;
+    border-radius: 20px;
+    transition: 0.5s ease-in;
+}
+.passcol{
+    background-color: Blue;
+}
